@@ -743,7 +743,6 @@ do
 		self:updateToggle(toggle, nil, active)
 
 		toggle.MouseButton1Click:Connect(function()
-			print(active)
 			active = not active
 			self:updateToggle(toggle, nil, active)
 
@@ -751,16 +750,6 @@ do
 				callback(active, function(...)
 					self:updateToggle(toggle, ...)
 				end)
-			end
-			
-			for i, v in pairs(toggle) do 
-				print(i, v)
-			end
-			
-			if active == true then 
-				toggle.Frame.ImageColor3 = Color3.new(0.0666667, 1, 0)
-			elseif active == false then 
-				toggle.Frame.ImageColor3 = Color3.new(255, 255, 255)
 			end
 		end)
 
