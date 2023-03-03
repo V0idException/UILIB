@@ -617,8 +617,10 @@ do
 		self.activeNotification = close
 		
 		
-		task.wait(2)
-		close()
+		spawn(function()
+			task.wait(4)
+			close()
+		end)
 	end
 
 	function section:addButton(title, callback)
