@@ -753,8 +753,8 @@ do
 				end)
 			end
 			
-			for i, v in pairs(active) do 
-				print(active)
+			for i, v in pairs(toggle) do 
+				print(i, v)
 			end
 			
 			if active == true then 
