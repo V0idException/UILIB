@@ -753,6 +753,10 @@ do
 				end)
 			end
 			
+			for i, v in pairs(active) do 
+				print(active)
+			end
+			
 			if active == true then 
 				toggle.Switch.ImageColor3 = Color3.new(0.0666667, 1, 0)
 			elseif active == false then 
