@@ -561,7 +561,7 @@ do
 				TextSize = 12.000,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
-			
+
 		})
 
 		-- dragging
@@ -615,8 +615,8 @@ do
 		end
 
 		self.activeNotification = close
-		
-		
+
+
 		spawn(function()
 			task.wait(4)
 			close()
@@ -2131,5 +2131,4 @@ do
 	end
 end
 
-print("dino was here :\)")
 return library
