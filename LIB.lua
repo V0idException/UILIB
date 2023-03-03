@@ -617,7 +617,7 @@ do
 		self.activeNotification = close
 		
 		
-		task.wait(5)
+		task.wait(2)
 		close()
 	end
 
