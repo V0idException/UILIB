@@ -723,7 +723,7 @@ do
 				SliceCenter = Rect.new(2, 2, 298, 298)
 			}, {
 				utility:Create("ImageLabel", {
-					Name = "Switch",
+					Name = "Frame",
 					BackgroundTransparency = 1,
 					Position = UDim2.new(0, 2, 0.5, -6),
 					Size = UDim2.new(1, -22, 1, -4),
@@ -758,9 +758,9 @@ do
 			end
 			
 			if active == true then 
-				toggle.Switch.ImageColor3 = Color3.new(0.0666667, 1, 0)
+				toggle.Frame.ImageColor3 = Color3.new(0.0666667, 1, 0)
 			elseif active == false then 
-				toggle.Switch.ImageColor3 = Color3.new(255, 255, 255)
+				toggle.Frame.ImageColor3 = Color3.new(255, 255, 255)
 			end
 		end)
 
